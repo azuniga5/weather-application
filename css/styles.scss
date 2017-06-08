@@ -1,4 +1,49 @@
+@import
+
 /* Styling */
 body {
-    background: red;
+    background: #50f0cc5;
 }
+
+// Drawer
+aside {
+  background: #ccc;
+  position: fixed;
+  height: 100%;
+  min-height: 100%;
+  left: -200px;
+  width: 200px;
+  // always on top
+  z-index: 999999;
+  // animate
+  transition: left .25s;
+}
+
+// Show Drawer
+.drawer {
+  left: 0;
+}
+
+// All Sections
+section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+// Section 1
+#one {
+  background: red;
+}
+// Section 2
+#two {
+  background: green;
+}
+// Section 3
+#three {
+  background: blue;
+}
+// :target Selection from Sidebar
+:target {
+  z-index: 1;
+}
+
