@@ -1,8 +1,8 @@
-@import
+@import "normalize";
 
 /* Styling */
 body {
-    background: #50f0cc5;
+    background: teal;
 }
 
 // Drawer
@@ -11,9 +11,11 @@ aside {
   position: fixed;
   height: 100%;
   min-height: 100%;
+  
   left: -200px;
   width: 200px;
-  // always on top
+  
+    // always on top
   z-index: 999999;
   // animate
   transition: left .25s;
