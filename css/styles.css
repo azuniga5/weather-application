@@ -431,17 +431,19 @@ h1 {
 
 /* line 21, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 a {
-  color: white; }
+  color: white;
+  justify-content: flex-start; }
 
-/* line 24, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 25, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 p {
   color: white;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   letter-spacing: 1.5px;
-  word-spacing: 1px; }
+  word-spacing: 1px;
+  text-align: center; }
 
-/* line 33, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 35, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 aside {
   background: #ccc;
   position: fixed;
@@ -452,29 +454,29 @@ aside {
   z-index: 999999;
   transition: left .25s; }
 
-/* line 49, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 51, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 .drawer {
   left: 0; }
 
-/* line 54, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 56, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 section {
   position: absolute;
   height: 100%;
   width: 100%; }
 
-/* line 60, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 62, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #one {
-  background: red; }
+  background: rgba(0, 0, 0, 0.15); }
 
-/* line 64, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 66, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #two {
-  background: green; }
+  background: rgba(0, 0, 0, 0.18); }
 
-/* line 68, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 70, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #three {
-  background: white; }
+  background: rgba(0, 0, 0, 0.12); }
 
-/* line 72, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 74, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 :target {
   z-index: 1; }
 
