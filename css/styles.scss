@@ -5,6 +5,7 @@
 /* Styling */
 body {
     background: url(/img/ep_naturalblack/ep_naturalblack.png);
+    position: static;
 }
 h1{
 	color: white;
@@ -19,8 +20,12 @@ h1{
 	padding: 10px ;
 }
 a {
-	color: white;
+	color: black;
 	justify-content: flex-start;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+    padding: 0px;
+    margin: 0 auto;
 }
 p {
 	color: white;
@@ -32,8 +37,8 @@ p {
 }
 
 // Drawer
-aside {
-  background: #ccc;
+.left-slider {
+  background: white;
   position: fixed;
   height: 100%;
   min-height: 100%;
@@ -60,15 +65,15 @@ section {
 }
 // Section 1
 #one {
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(200, 0, 0, 0.2);
 }
 // Section 2
 #two {
-  background: rgba(0, 0, 0, .18);
+  background: rgba(0, 200, 0, .2);
 }
 // Section 3
 #three {
-  background: rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 200, 0.2);
 }
 // :target Selection from Sidebar
 :target {

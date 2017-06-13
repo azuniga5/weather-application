@@ -414,9 +414,10 @@ template {
 /* Styling */
 /* line 6, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 body {
-  background: url(/img/ep_naturalblack/ep_naturalblack.png); }
+  background: url(/img/ep_naturalblack/ep_naturalblack.png);
+  position: static; }
 
-/* line 9, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 10, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 h1 {
   color: white;
   font-family: 'Rubik', sans-serif;
@@ -429,12 +430,16 @@ h1 {
   margin: 0 auto;
   padding: 10px; }
 
-/* line 21, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 22, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 a {
-  color: white;
-  justify-content: flex-start; }
+  color: black;
+  justify-content: flex-start;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 1px;
+  padding: 0px;
+  margin: 0 auto; }
 
-/* line 25, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 30, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 p {
   color: white;
   font-family: 'Rubik', sans-serif;
@@ -443,9 +448,9 @@ p {
   word-spacing: 1px;
   text-align: center; }
 
-/* line 35, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
-aside {
-  background: #ccc;
+/* line 40, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+.left-slider {
+  background: white;
   position: fixed;
   height: 100%;
   min-height: 100%;
@@ -454,29 +459,29 @@ aside {
   z-index: 999999;
   transition: left .25s; }
 
-/* line 51, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 56, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 .drawer {
   left: 0; }
 
-/* line 56, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 61, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 section {
   position: absolute;
   height: 100%;
   width: 100%; }
 
-/* line 62, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 67, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #one {
-  background: rgba(0, 0, 0, 0.15); }
+  background: rgba(200, 0, 0, 0.2); }
 
-/* line 66, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 71, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #two {
-  background: rgba(0, 0, 0, 0.18); }
+  background: rgba(0, 200, 0, 0.2); }
 
-/* line 70, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 75, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #three {
-  background: rgba(0, 0, 0, 0.12); }
+  background: rgba(0, 0, 200, 0.2); }
 
-/* line 74, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 79, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 :target {
   z-index: 1; }
 
