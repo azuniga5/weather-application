@@ -38,22 +38,23 @@ p {
 
 // Drawer
 .left-slider {
-  background: white;
+  background: rgba( 22, 200, 190, 0.60);
   position: fixed;
   height: 100%;
   min-height: 100%;
   
   left: -200px;
-  width: 200px;
+  width: 175px;
   
     // always on top
   z-index: 999999;
   // animate
-  transition: left .25s;
+  transition: left .55s;
 }
 
 // Show Drawer
 .drawer {
+color: aliceblue;
   left: 0;
 }
 
