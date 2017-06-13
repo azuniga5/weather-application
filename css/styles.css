@@ -432,14 +432,15 @@ h1 {
 
 /* line 22, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 a {
-  color: black;
+  color: white;
+  font-size: 1.2em;
   justify-content: flex-start;
   font-family: 'Rubik', sans-serif;
   letter-spacing: 1px;
   padding: 0px;
   margin: 0 auto; }
 
-/* line 30, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 31, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 p {
   color: white;
   font-family: 'Rubik', sans-serif;
@@ -448,8 +449,9 @@ p {
   word-spacing: 1px;
   text-align: center; }
 
-/* line 40, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 41, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 .left-slider {
+  color: white;
   background: rgba(22, 200, 190, 0.6);
   position: fixed;
   height: 100%;
@@ -459,30 +461,30 @@ p {
   z-index: 999999;
   transition: left .55s; }
 
-/* line 56, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 58, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 .drawer {
   color: aliceblue;
   left: 0; }
 
-/* line 62, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 64, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 section {
   position: absolute;
   height: 100%;
   width: 100%; }
 
-/* line 68, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 70, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #one {
   background: rgba(200, 0, 0, 0.2); }
 
-/* line 73, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 75, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #two {
   background: rgba(0, 200, 0, 0.2); }
 
-/* line 77, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 79, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #three {
   background: rgba(0, 0, 200, 0.2); }
 
-/* line 81, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 83, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 :target {
   z-index: 1; }
 
