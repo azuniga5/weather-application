@@ -7,7 +7,7 @@ $('.toggle-drawer').click( function() {
 });
 
 // Section 1 Weather
-$('#city-1').on('click', function() {
+$('#cheney').on('click', function() {
   
   $.simpleWeather({
     location: 99004,
@@ -19,6 +19,7 @@ $('#city-1').on('click', function() {
       // Display Data
       $('#one .temp').text(weather.temp);
       $('#one .city').text(weather.city);
+      $('#one .title').text(weather.title);
       
     },
     error: function(error) {
@@ -32,7 +33,7 @@ $('#city-1').on('click', function() {
 
 
 // Section 2 Weather
-$('#city-2').on('click', function() {
+$('#seattle').on('click', function() {
   
   $.simpleWeather({
     location: 98105,
@@ -58,7 +59,7 @@ $('#city-2').on('click', function() {
 
 
 // Section 3 Weather
-$('#city-3').on('click', function() {
+$('#current-location').on('click', function() {
      
     //load weather using your lat/long coordinates
     navigator.geolocation.getCurrentPosition(function(position) {

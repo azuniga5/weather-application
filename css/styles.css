@@ -471,17 +471,20 @@ section {
 
 /* line 67, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #one {
-  background: rgba(200, 0, 0, 0.2); }
+  background: rgba(200, 0, 0, 0.2);
+  background-image: url(../img/backgrounds/ewu.png);
+  width: auto;
+  height: auto; }
 
-/* line 71, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 74, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #two {
   background: rgba(0, 200, 0, 0.2); }
 
-/* line 75, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 78, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #three {
   background: rgba(0, 0, 200, 0.2); }
 
-/* line 79, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 82, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 :target {
   z-index: 1; }
 
