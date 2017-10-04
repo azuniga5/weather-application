@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Raleway");
+/*font-family: 'Kaushan Script', cursive;
+font-family: 'Raleway', sans-serif;*/
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -412,79 +414,52 @@ template {
   display: none; }
 
 /* Styling */
-/* line 6, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 9, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 body {
-  background-image: url(../img/ep_naturalblack/ep_naturalblack.png);
-  position: static; }
+  background: url(../img/bg_img/galaxy.jpg); }
 
-/* line 10, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 13, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 h1 {
+  font-size: 3em;
   color: white;
-  font-family: 'Rubik', sans-serif;
-  font-size: 2em;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2px;
-  display: flex;
-  justify-content: space-around;
-  margin: 50px auto;
-  padding: 10px; }
+  text-align: center;
+  padding: .2em;
+  font-family: 'Kaushan Script', cursive; }
 
 /* line 22, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
-a {
-  color: white;
-  font-size: 1.2em;
-  justify-content: flex-start;
-  font-family: 'Rubik', sans-serif;
-  letter-spacing: 1px;
-  padding: 0px;
-  margin: 0 auto; }
-
-/* line 31, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
-p {
-  color: white;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  word-spacing: 1px;
-  text-align: center; }
-
-/* line 41, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
-.left-slider {
-  color: white;
-  background: rgba(22, 200, 190, 0.6);
+aside {
+  background: #ccc;
   position: fixed;
   height: 100%;
   min-height: 100%;
   left: -200px;
-  width: 175px;
+  width: 200px;
   z-index: 999999;
-  transition: left .55s; }
+  transition: left .25s; }
 
-/* line 58, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 38, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 .drawer {
-  color: aliceblue;
   left: 0; }
 
-/* line 64, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 43, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 section {
   position: absolute;
   height: 100%;
   width: 100%; }
 
-/* line 70, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 49, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #one {
-  background: rgba(200, 0, 0, 0.2); }
+  background: red; }
 
-/* line 75, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 53, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #two {
-  background: rgba(0, 200, 0, 0.2); }
+  background: green; }
 
-/* line 79, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 57, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #three {
-  background: rgba(0, 0, 200, 0.2); }
+  background: blue; }
 
-/* line 83, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 61, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 :target {
   z-index: 1; }
 

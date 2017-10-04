@@ -1,62 +1,35 @@
-//FONT
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,700,900');
 @import "normalize";
 
 /* Styling */
 body {
-    background-image: url(../img/ep_naturalblack/ep_naturalblack.png);
-    position: static;
+    background: black;
 }
 h1{
-	color: white;
-	font-family: 'Rubik', sans-serif;
-	font-size: 2em;
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 2px;
-	display: flex;
-	justify-content: space-around;
-	margin: 50px auto;
-	padding: 10px ;
-}
-a {
-	color: white;
-    font-size: 1.2em;
-	justify-content: flex-start;
-    font-family: 'Rubik', sans-serif;
-    letter-spacing: 1px;
-    padding: 0px;
-    margin: 0 auto;
-}
-p {
-	color: white;
-	font-family: 'Rubik', sans-serif;
-	font-weight: 400;
-	letter-spacing: 1.5px;
-	word-spacing: 1px;
-	text-align: center;;
+   font-size: 3em;
+   color: #ffffff;
+   text-align: center;
+   padding: .2em;
+   font-family:'Kaushan Script', cursive;
 }
 
 // Drawer
-.left-slider {
-    color: white;
-  background: rgba( 22, 200, 190, 0.60);
+aside {
+  background: #ccc;
   position: fixed;
   height: 100%;
   min-height: 100%;
   
   left: -200px;
-  width: 175px;
+  width: 200px;
   
     // always on top
   z-index: 999999;
   // animate
-  transition: left .55s;
+  transition: left .25s;
 }
 
 // Show Drawer
 .drawer {
-color: aliceblue;
   left: 0;
 }
 
@@ -68,16 +41,15 @@ section {
 }
 // Section 1
 #one {
-  background: rgba(200, 0, 0, 0.2);
-
+  background: red;
 }
 // Section 2
 #two {
-  background: rgba(0, 200, 0, .2);
+  background: green;
 }
 // Section 3
 #three {
-  background: rgba(0, 0, 200, 0.2);
+  background: blue;
 }
 // :target Selection from Sidebar
 :target {
