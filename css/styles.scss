@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Raleway');
+/*font-family: 'Kaushan Script', cursive;
+font-family: 'Raleway', sans-serif;*/
+
 @import "normalize";
 
 /* Styling */
 body {
-    background: black;
+    background: url(../img/bg_img/galaxy.jpg);
 }
 h1{
    font-size: 3em;
@@ -12,20 +16,24 @@ h1{
    font-family:'Kaushan Script', cursive;
 }
 
+ a {
+    color: white;
+}
+
 // Drawer
 aside {
-  background: #ccc;
+  background: transparent; 
   position: fixed;
   height: 100%;
   min-height: 100%;
   
   left: -200px;
-  width: 200px;
+  width: 180px;
   
     // always on top
   z-index: 999999;
   // animate
-  transition: left .25s;
+  transition: right .35s;
 }
 
 // Show Drawer

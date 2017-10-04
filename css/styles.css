@@ -414,52 +414,56 @@ template {
   display: none; }
 
 /* Styling */
-/* line 9, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 8, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 body {
-  background: url(../img/bg_img/galaxy.jpg); }
+   background: url(../img/bg_img/galaxy.jpg); }
 
-/* line 13, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 11, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 h1 {
   font-size: 3em;
-  color: white;
+  color: #ffffff;
   text-align: center;
   padding: .2em;
   font-family: 'Kaushan Script', cursive; }
 
-/* line 22, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 19, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+ a {
+  color: white; }
+
+/* line 24, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 aside {
-  background: #ccc;
+  background: transparent;
   position: fixed;
   height: 100%;
   min-height: 100%;
   left: -200px;
-  width: 200px;
+  width: 180px;
   z-index: 999999;
-  transition: left .25s; }
+  transition: left .35s; }
 
-/* line 38, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 40, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 .drawer {
   left: 0; }
 
-/* line 43, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 45, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 section {
   position: absolute;
   height: 100%;
   width: 100%; }
 
-/* line 49, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 51, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #one {
   background: red; }
 
-/* line 53, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 55, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #two {
   background: green; }
 
-/* line 57, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 59, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 #three {
   background: blue; }
 
-/* line 61, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 63, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 :target {
   z-index: 1; }
 
