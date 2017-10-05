@@ -455,6 +455,7 @@ h3 {
 article {
   display: flex;
   flex-wrap: wrap; 
+  width: 15em;
   
 }
 
@@ -463,7 +464,7 @@ figure {
   background: black;
   opacity: .9;
   padding: 2em;
-  width: 20em;
+  width: 10em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
@@ -471,6 +472,12 @@ figure {
   margin: auto;
 }
 
+img{
+    width: 10em;
+    margin: auto;
+    padding: .2em;
+    
+}
 
 h3:hover{
   font-size: 1em;

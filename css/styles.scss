@@ -49,21 +49,32 @@ h3 {
 
 // Layout
 article {
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap; 
+  width: 15em;
+  
 }
 
+
 // thumbnails
+
 figure {
   background: black;
   opacity: .9;
   padding: 2em;
-  width: 20em;
+  width: 10em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
   padding: 1em;
   margin: auto;
+}
+
+img{
+    width: 10em;
+    margin: auto;
+    padding: .2em;
+    
 }
 
 
