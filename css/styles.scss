@@ -5,9 +5,31 @@ font-family: 'Raleway', sans-serif;*/
 @import "normalize";
 
 /* Styling */
-body {
-    background: url(../img/bg_img/galaxy.jpg);
+
+
+//moving-background
+#moving-background{
+  
+  width:100%;
+  height:100vh;
+  background: url(../img/bg_img/galaxy.jpg);
+  background-size:150% 150%;
+  
+  //background-attachment:scroll;
+  background-position:bottom;
+  animation: animatedBackground 40s linear infinite;
+  
+  
+
 }
+
+@keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	50% { background-position: 100% 100%; }
+  100% { background-position: 0 0; }
+}
+
+
 h1{
    font-size: 3em;
    color: #ffffff;
@@ -19,6 +41,24 @@ h1{
  a {
     color: white;
 }
+
+// Layout
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// thumbnails
+figure {
+  background: #333;
+  padding: 2em;
+  width: 20em;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 
 // Drawer
 aside {
