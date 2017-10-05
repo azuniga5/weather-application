@@ -421,14 +421,14 @@ template {
   max-width: 100%;
   background: url(../img/bg_img/galaxy.jpg);
   background-size: 250% 100%;
-  animation: animatedBackground 65s linear infinite; }
+  animation: animatedBackground 35s linear infinite; }
 
 @keyframes animatedBackground {
   0% {
     background-position: 0 0; }
-  40% {
+  60% {
     background-position: 100% 100%; }
-  100% {
+  80% {
     background-position: 0 0; } }
 
 /* line 33, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
