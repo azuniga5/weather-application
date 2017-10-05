@@ -9,7 +9,6 @@ font-family: 'Raleway', sans-serif;*/
 
 //moving-background
 #moving-background{
-  
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -19,8 +18,6 @@ font-family: 'Raleway', sans-serif;*/
   //background-attachment:scroll;
   animation: animatedBackground 35s linear infinite;
   
-  
-
 }
 
 @keyframes animatedBackground {
@@ -28,6 +25,7 @@ font-family: 'Raleway', sans-serif;*/
 	60% { background-position: 100% 100%; }
     80% { background-position: 0 0; }
 }
+
 
 
 h1{
@@ -38,25 +36,34 @@ h1{
    font-family:'Kaushan Script', cursive;
 }
 
- a {
-    color: white;
+h3 {
+ font-family: 'Raleway', sans-serif;
+ color: white;
+ font-size: .8em;
+ text-align: left;
+ padding: .2em;
+ margin: auto;
+ letter-spacing: .9px;
+    
 }
 
 // Layout
 article {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
 }
 
 // thumbnails
 figure {
-  background: #333;
+  background: black;
+  opacity: .9;
   padding: 2em;
   width: 20em;
-  
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; 
+  padding: 1em;
+  margin: auto;
 }
 
 
@@ -75,6 +82,22 @@ aside {
   // animate
   transition: right .35s;
 }
+
+
+h3:hover{
+  font-size: .5em;    
+    
+}
+
+img:hover {
+    size: 5em;
+}
+
+
+
+
+
+
 
 // Show Drawer
 .drawer {
