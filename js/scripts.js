@@ -6,67 +6,9 @@ $('.toggle-drawer').click( function() {
   
 });
 
-// Section 1 Weather
+
+// Current lcoation
 $('#city-1').on('click', function() {
-  
-  $.simpleWeather({
-    location: 99004,
-    unit: 'f',
-    success: function(weather) {
-      // Entire weather object
-      console.log(weather);
-      
-      // Display Data
-      $('#one .temp').text(weather.temp);
-      $('#one .city').text(weather.city);
-      $('#one .state').text(location.state);
-      
-    },
-    error: function(error) {
-      // Show if weather cannot be retreived
-      console.log('Look outside.');
-    }
-  
-  }); 
-    
-    
-    
-    
-  
-});
-
-
-
-
-// Section 2 Weather
-$('#city-2').on('click', function() {
-  
-  $.simpleWeather({
-    location: 98105,
-    unit: 'f',
-    success: function(weather) {
-      // Entire weather object
-      console.log(weather);
-      
-      // Display Data
-      $('#two .temp').text(weather.temp);
-      $('#two .city').text(weather.city);
-      $('#two .state').text(location.state);
-        
-    },
-    error: function(error) {
-      // Show if weather cannot be retreived
-      console.log('Look outside.');
-    }
-  
-  }); 
-  
-});
-
-
-
-// Section 3 Weather
-$('#city-3').on('click', function() {
      
     //load weather using your lat/long coordinates
     navigator.geolocation.getCurrentPosition(function(position) {
@@ -92,9 +34,9 @@ $('#city-3').on('click', function() {
       console.log(weather);
       
       // Display Data
-      $('#three .temp').text(weather.temp);
-      $('#three .city').text(weather.city);
-      $('#three .state').text(weather.state);
+      $('#one .temp').text(weather.temp);
+      $('#one .city').text(weather.city);
+      $('#one .state').text(weather.state);
         
 
     },
@@ -108,3 +50,64 @@ $('#city-3').on('click', function() {
 };
   
 });
+
+
+// Section 1 Weather
+$('#city-2').on('click', function() {
+  
+  $.simpleWeather({
+    location: 98802,
+    unit: 'f',
+    success: function(weather) {
+      // Entire weather object
+      console.log(weather);
+      
+      // Display Data
+      $('#two .temp').text(weather.temp);
+      $('#two .city').text(weather.city);
+      $('#two .state').text(location.state);
+      
+    },
+    error: function(error) {
+      // Show if weather cannot be retreived
+      console.log('Look outside.');
+    }
+  
+  }); 
+    
+    
+    
+    
+  
+});
+
+
+
+
+// Section 2 Weather
+$('#city-2').on('click', function() {
+  
+  $.simpleWeather({
+    location: 98802,
+    unit: 'f',
+    success: function(weather) {
+      // Entire weather object
+      console.log(weather);
+      
+      // Display Data
+      $('#two .temp').text(weather.temp);
+      $('#two .city').text(weather.city);
+      $('#two .state').text(location.state);
+        
+    },
+    error: function(error) {
+      // Show if weather cannot be retreived
+      console.log('Look outside.');
+    }
+  
+  }); 
+  
+});
+
+
+
