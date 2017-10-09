@@ -19,7 +19,7 @@ $('#city-1').on('click', function() {
       // Display Data
       $('#one .temp').text(weather.temp);
       $('#one .city').text(weather.city);
-      $('#one .state').text(weather.state);
+      $('#one .state').text(location.state);
       
     },
     error: function(error) {
@@ -47,7 +47,7 @@ $('#city-2').on('click', function() {
       // Display Data
       $('#two .temp').text(weather.temp);
       $('#two .city').text(weather.city);
-      $('#two .state').text(weather.state);
+      $('#two .state').text(location.state);
         
     },
     error: function(error) {
