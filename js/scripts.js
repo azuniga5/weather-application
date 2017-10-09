@@ -19,6 +19,7 @@ $('#city-1').on('click', function() {
       // Display Data
       $('#one .temp').text(weather.temp);
       $('#one .city').text(weather.city);
+      $('#one .state').text(weather.state);
       
     },
     error: function(error) {
@@ -29,6 +30,8 @@ $('#city-1').on('click', function() {
   }); 
   
 });
+
+
 
 
 // Section 2 Weather
@@ -44,7 +47,8 @@ $('#city-2').on('click', function() {
       // Display Data
       $('#two .temp').text(weather.temp);
       $('#two .city').text(weather.city);
-      
+      $('#two .state').text(weather.state);
+        
     },
     error: function(error) {
       // Show if weather cannot be retreived
@@ -86,6 +90,7 @@ $('#city-3').on('click', function() {
       // Display Data
       $('#three .temp').text(weather.temp);
       $('#three .city').text(weather.city);
+      $('#three .state').text(weather.state);
         
 
     },
