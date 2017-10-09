@@ -440,43 +440,50 @@ h1 {
   font-family: 'Kaushan Script', cursive;
   letter-spacing: 1.2px; }
 
-/* line 40, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 38, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+section {
+  margin: auto;
+  padding: 0em; }
+
+/* line 44, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 p {
+  background-color: black;
   font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 3.3em;
   font-weight: 300;
   text-align: center;
-  padding: .2em;
+  padding: 1em;
   margin: 200px auto;
   letter-spacing: 9px; }
 
-/* line 51, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 56, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 .city {
+  background-color: black;
   font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 1.5em;
   font-weight: 300;
   text-align: center;
-  padding: .2em;
-  margin: -180px auto;
+  padding: 1em;
+  margin: -250px auto;
   letter-spacing: .9px; }
 
-/* line 63, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 69, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 .toggle-drawer {
   color: white;
   font-size: 2.2em;
   padding: 1em; }
 
-/* line 69, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 75, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 .icon {
   justify-content: flex-end; }
 
-/* line 73, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 79, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 .forcast {
   background-color: white; }
 
-/* line 80, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 86, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 aside {
   background: #100621;
   opacity: .9;
@@ -488,17 +495,17 @@ aside {
   z-index: 999999;
   transition: left .25s; }
 
-/* line 97, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 103, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 .drawer {
   left: 0; }
 
-/* line 102, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 108, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 section {
   position: absolute;
   height: 100%;
   width: 100%; }
 
-/* line 109, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 115, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
 :target {
   z-index: 1; }
 

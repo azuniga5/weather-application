@@ -35,27 +35,33 @@ h1{
   letter-spacing: 1.2px;
 }
 
-
+section{
+    
+    margin: auto;
+    padding: 0em;
+}
 
 p {
+ background-color: black;
  font-family: 'Raleway', sans-serif;
  color: white;
  font-size: 3.3em;
  font-weight: 300;
  text-align: center;
- padding: .2em;
+ padding: 1em;
  margin: 200px auto;
  letter-spacing: 9px;}
 
 
 .city{
+ background-color: black;
  font-family: 'Raleway', sans-serif;
  color: white;
  font-size: 1.5em;
  font-weight: 300;
  text-align: center;
- padding: .2em;
- margin: -180px auto;
+ padding: 1em;
+ margin: -250px auto;
  letter-spacing: .9px;
     
 }
@@ -109,4 +115,7 @@ section {
 :target {
   z-index: 1;
 }
+
+
+
 

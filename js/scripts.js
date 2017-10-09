@@ -28,6 +28,10 @@ $('#city-1').on('click', function() {
     }
   
   }); 
+    
+    
+    
+    
   
 });
 
