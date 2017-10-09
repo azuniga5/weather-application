@@ -4,7 +4,6 @@ font-family: 'Raleway', sans-serif;*/
 
 @import "normalize";
 
-/* Styling */
 
 
 //moving-background
@@ -26,90 +25,53 @@ font-family: 'Raleway', sans-serif;*/
     80% { background-position: 0 0; }
 }
 
-
-
 h1{
    font-size: 3em;
    color: #ffffff;
    text-align: center;
    padding: .2em;
    font-family:'Kaushan Script', cursive;
+   letter-spacing: 1.2px;
 }
 
-h3 {
+.weather1 {
+    margin-top: 2000px;
+}
+
+p {
  font-family: 'Raleway', sans-serif;
  color: white;
- font-size: .8em;
- text-align: left;
+ font-size: 1.5em;
+ font-weight: 900;
+ text-align: center;
  padding: .2em;
  margin: auto;
  letter-spacing: .9px;
-    
 }
 
-// Layout
-article {
-  display: flex;
-  flex-wrap: wrap; 
-  width: 15em;
-  
+.toggle-drawer {
+    color:white;
+
 }
 
-
-// thumbnails
-
-figure {
-  background: black;
-  opacity: .9;
-  padding: 2em;
-  width: 13em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; 
-  padding: 1em;
-  margin: auto;
-}
-
-img{
-    width: 12em;
-    height: 10em;
-    margin: auto;
-    padding: .2em;
-    
-}
 
 
 // Drawer
 aside {
-  background: transparent; 
+  background: #420753;
+  opacity: .9;
   position: fixed;
   height: 100%;
   min-height: 100%;
   
   left: -200px;
-  width: 180px;
+  width: 165px;
   
     // always on top
   z-index: 999999;
   // animate
-  transition: right .35s;
+  transition: left .30s;
 }
-
-
-h3:hover{
-  font-size: .5em;    
-    
-}
-
-img:hover {
-    size: 5em;
-}
-
-
-
-
-
-
 
 // Show Drawer
 .drawer {
@@ -122,20 +84,8 @@ section {
   height: 100%;
   width: 100%;
 }
-// Section 1
-#one {
-  background: red;
-}
-// Section 2
-#two {
-  background: green;
-}
-// Section 3
-#three {
-  background: blue;
-}
+
 // :target Selection from Sidebar
 :target {
   z-index: 1;
 }
-
