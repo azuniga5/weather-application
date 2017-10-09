@@ -25,13 +25,13 @@ font-family: 'Raleway', sans-serif;*/
     80% { background-position: 0 0; }
 }
 
-h1{
-   font-size: 3em;
-   color: #ffffff;
-   text-align: center;
-   padding: .2em;
-   font-family:'Kaushan Script', cursive;
-   letter-spacing: 1.2px;
+h1{  
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  padding: .1em 0 10em 0;
+  font-family: 'Kaushan Script', cursive;
+  letter-spacing: 1.2px;
 }
 
 
@@ -39,28 +39,42 @@ h1{
 p {
  font-family: 'Raleway', sans-serif;
  color: white;
- font-size: 1.5em;
- font-weight: 900;
+ font-size: 1.9em;
+ font-weight: 300;
  text-align: center;
- padding: .2em;
- margin: auto;
+ padding: 0em;
+ margin: 100px auto;
  letter-spacing: .9px;
+}
+
+.city{
+ font-family: 'Raleway', sans-serif;
+ color: white;
+ font-size: 1.2em;
+ font-weight: 300;
+ text-align: center;
+ padding: 0em;
+ margin: -80px auto;
+ letter-spacing: .9px;
+    
 }
 
 .toggle-drawer {
     color:white;
-
 }
+
+
 
 // Drawer
 aside {
-  background: #ccc;
-  position: fixed;
+  background: purple;
+  opacity: .9;
+  position:absolute;
   height: 100%;
   min-height: 100%;
   
   left: -200px;
-  width: 200px;
+  width: 170px;
   
     // always on top
   z-index: 999999;
