@@ -28,6 +28,8 @@ $('#city-1').on('click', function() {
    $.simpleWeather({
     location: location,
     unit: 'f',
+    speed: 'mph',
+    
     success: function(weather) {
       
       // Entire weather object
@@ -36,7 +38,7 @@ $('#city-1').on('click', function() {
       // Display Data
       $('#one .temp').text(weather.temp);
       $('#one .city').text(weather.city);
-      $('#one .state').text(weather.state);
+      
         
 
     },
@@ -50,6 +52,8 @@ $('#city-1').on('click', function() {
 };
   
 });
+
+
 
 
 // Section 1 Weather
