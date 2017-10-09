@@ -7,7 +7,7 @@ font-family: 'Raleway', sans-serif;*/
 
 
 //moving-background
-#moving-background{
+#moving-bg{
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -52,23 +52,20 @@ p {
 
 }
 
-
-
 // Drawer
 aside {
-  background: #420753;
-  opacity: .9;
+  background: #ccc;
   position: fixed;
   height: 100%;
   min-height: 100%;
   
   left: -200px;
-  width: 165px;
+  width: 200px;
   
     // always on top
   z-index: 999999;
   // animate
-  transition: left .30s;
+  transition: left .25s;
 }
 
 // Show Drawer
@@ -87,3 +84,4 @@ section {
 :target {
   z-index: 1;
 }
+
