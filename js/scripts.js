@@ -37,8 +37,11 @@ $('#city-1').on('click', function() {
       
       // Display Data
       $('#one .condition').text(weather.currently);
-      $('#one .temp').text(weather.temp );
-      $('#one .city').text(weather.city + weather.region);
+      $('#one .temp').text(weather.temp);
+      
+      
+      $('#one .city').text(weather.city + weather.region );
+      
       
         
 
@@ -71,7 +74,7 @@ $('#city-2').on('click', function() {
       $('#two .condition').text(weather.currently);
       $('#two .temp').text(weather.temp);
       $('#two .city').text(weather.city + weather.region);
-
+      
       
     },
     error: function(error) {
@@ -81,6 +84,7 @@ $('#city-2').on('click', function() {
   
   }); 
 });
+
 
 
 

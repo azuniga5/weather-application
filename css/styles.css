@@ -9,7 +9,7 @@ font-family: 'Raleway', sans-serif;*/
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-/* line 12, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 12, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -23,7 +23,7 @@ html {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 25, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 25, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 article,
 aside,
 footer,
@@ -36,7 +36,7 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 39, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 39, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -47,7 +47,7 @@ h1 {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
-/* line 52, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 52, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 figcaption,
 figure,
 main {
@@ -57,7 +57,7 @@ main {
 /**
  * Add the correct margin in IE 8.
  */
-/* line 62, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 62, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
@@ -65,7 +65,7 @@ figure {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 71, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 71, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -78,7 +78,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 82, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 82, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -91,7 +91,7 @@ pre {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
-/* line 95, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 95, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 a {
   background-color: transparent;
   /* 1 */
@@ -102,7 +102,7 @@ a {
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 105, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 105, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -114,7 +114,7 @@ abbr[title] {
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-/* line 115, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 115, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 b,
 strong {
   font-weight: inherit; }
@@ -122,7 +122,7 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 124, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 124, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 b,
 strong {
   font-weight: bolder; }
@@ -131,7 +131,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 134, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 134, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 code,
 kbd,
 samp {
@@ -143,14 +143,14 @@ samp {
 /**
  * Add the correct font style in Android 4.3-.
  */
-/* line 145, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 145, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 dfn {
   font-style: italic; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
-/* line 153, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 153, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 mark {
   background-color: #ff0;
   color: #000; }
@@ -158,7 +158,7 @@ mark {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 162, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 162, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 small {
   font-size: 80%; }
 
@@ -166,7 +166,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 171, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 171, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -174,11 +174,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 179, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 179, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 183, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 183, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 sup {
   top: -0.5em; }
 
@@ -187,7 +187,7 @@ sup {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 194, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 194, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 audio,
 video {
   display: inline-block; }
@@ -195,7 +195,7 @@ video {
 /**
  * Add the correct display in iOS 4-7.
  */
-/* line 203, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 203, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -203,14 +203,14 @@ audio:not([controls]) {
 /**
  * Remove the border on images inside links in IE 10-.
  */
-/* line 212, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 212, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 img {
   border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
-/* line 220, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 220, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -219,7 +219,7 @@ svg:not(:root) {
 /**
  * Remove the margin in Firefox and Safari.
  */
-/* line 231, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 231, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 button,
 input,
 optgroup,
@@ -231,7 +231,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 244, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 244, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -241,7 +241,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 254, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 254, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -252,7 +252,7 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 265, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 265, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 button,
 html [type="button"],
 [type="reset"],
@@ -263,7 +263,7 @@ html [type="button"],
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 276, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 276, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -274,7 +274,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 288, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 288, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -287,7 +287,7 @@ button:-moz-focusring,
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 302, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 302, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -306,7 +306,7 @@ legend {
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 316, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 316, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 progress {
   display: inline-block;
   /* 1 */
@@ -316,7 +316,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE.
  */
-/* line 325, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 325, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -324,7 +324,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
-/* line 334, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 334, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -335,7 +335,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 344, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 344, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -344,7 +344,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 354, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 354, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -354,7 +354,7 @@ textarea {
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
-/* line 363, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 363, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -363,7 +363,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 373, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 373, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -376,7 +376,7 @@ textarea {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
-/* line 386, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 386, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 details,
 menu {
   display: block; }
@@ -384,7 +384,7 @@ menu {
 /*
  * Add the correct display in all browsers.
  */
-/* line 395, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 395, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 summary {
   display: list-item; }
 
@@ -393,14 +393,14 @@ summary {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 406, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 406, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 canvas {
   display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
-/* line 414, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 414, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 template {
   display: none; }
 
@@ -409,11 +409,11 @@ template {
 /**
  * Add the correct display in IE 10-.
  */
-/* line 425, /Users/azuniga5/Desktop/weather-application/css/_normalize.scss */
+/* line 425, /Users/azuniga5/Documents/GitHub/weather-application/css/_normalize.scss */
 [hidden] {
   display: none; }
 
-/* line 10, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 10, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 #moving-bg {
   width: 100%;
   height: auto;
@@ -430,7 +430,7 @@ template {
   80% {
     background-position: 0 0; } }
 
-/* line 28, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 28, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 h1 {
   font-size: 3em;
   color: white;
@@ -440,7 +440,7 @@ h1 {
   font-family: 'Kaushan Script', cursive;
   letter-spacing: 1.2px; }
 
-/* line 37, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 37, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 .links {
   font-family: 'Raleway', sans-serif;
   padding: 1em;
@@ -450,9 +450,8 @@ h1 {
   letter-spacing: 1.2px;
   line-height: 1.8em; }
 
-/* line 47, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 47, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 .condition {
-  background-color: black;
   font-family: 'Raleway', sans-serif;
   color: white;
   width: 50%;
@@ -464,23 +463,21 @@ h1 {
   margin: 250px auto;
   letter-spacing: .9px; }
 
-/* line 61, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 61, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 p {
-  background-color: black;
   font-family: 'Raleway', sans-serif;
-  width: 48.15%;
+  width: 43.3%;
   border-radius: 3px;
   color: white;
-  font-size: 3.3em;
+  font-size: 4em;
   font-weight: 300;
   text-align: center;
   padding: 1em;
-  margin: -330px auto;
+  margin: -360px auto;
   letter-spacing: 9px; }
 
-/* line 75, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 75, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 .city {
-  background-color: black;
   font-family: 'Raleway', sans-serif;
   width: 50%;
   border-radius: 3px;
@@ -492,13 +489,13 @@ p {
   margin: 260px auto;
   letter-spacing: .9px; }
 
-/* line 90, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 90, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 .toggle-drawer {
   color: white;
   font-size: 1.2em;
   padding: .5em; }
 
-/* line 99, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 99, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 aside {
   background: #100621;
   opacity: .9;
@@ -510,18 +507,18 @@ aside {
   z-index: 999999;
   transition: left .25s; }
 
-/* line 116, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 116, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 .drawer {
   left: 0; }
 
-/* line 121, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 121, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 section {
   position: absolute;
   margin: 40px auto;
   height: 100%;
   width: 100%; }
 
-/* line 128, /Users/azuniga5/Desktop/weather-application/css/styles.scss */
+/* line 128, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 :target {
   z-index: 1; }
 
