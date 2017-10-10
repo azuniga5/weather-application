@@ -443,8 +443,8 @@ h1 {
 /* line 37, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 .links {
   font-family: 'Raleway', sans-serif;
+
   padding: 1em;
-  margin: auto;
   font-size: 1.1em;
   color: white;
   letter-spacing: 1.2px;
@@ -460,7 +460,7 @@ h1 {
   font-weight: 300;
   text-align: center;
   padding: 2em;
-  margin: 250px auto;
+  margin: 200px auto;
   letter-spacing: .9px; }
 
 /* line 61, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
@@ -473,7 +473,7 @@ p {
   font-weight: 300;
   text-align: center;
   padding: 1em;
-  margin: -360px auto;
+  margin: -310px auto;
   letter-spacing: 9px; }
 
 /* line 75, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
@@ -486,7 +486,7 @@ p {
   font-weight: 300;
   text-align: center;
   padding: 2em;
-  margin: 260px auto;
+  margin: 210px auto;
   letter-spacing: .9px; }
 
 /* line 90, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
