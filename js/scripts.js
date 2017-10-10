@@ -36,8 +36,9 @@ $('#city-1').on('click', function() {
       console.log(weather);
       
       // Display Data
-      $('#one .temp').text(weather.temp);
-      $('#one .city').text(weather.city);
+      $('#one .condition').text(weather.currently);
+      $('#one .temp').text(weather.temp );
+      $('#one .city').text(weather.city + weather.region);
       
         
 
@@ -67,9 +68,10 @@ $('#city-2').on('click', function() {
       console.log(weather);
       
       // Display Data
+      $('#two .condition').text(weather.currently);
       $('#two .temp').text(weather.temp);
-      $('#two .city').text(weather.city);
-      $('#two .state').text(location.state);
+      $('#two .city').text(weather.city + weather.region);
+
       
     },
     error: function(error) {
@@ -78,39 +80,6 @@ $('#city-2').on('click', function() {
     }
   
   }); 
-    
-    
-    
-    
-  
-});
-
-
-
-
-// Section 2 Weather
-$('#city-2').on('click', function() {
-  
-  $.simpleWeather({
-    location: 98802,
-    unit: 'f',
-    success: function(weather) {
-      // Entire weather object
-      console.log(weather);
-      
-      // Display Data
-      $('#two .temp').text(weather.temp);
-      $('#two .city').text(weather.city);
-      $('#two .state').text(location.state);
-        
-    },
-    error: function(error) {
-      // Show if weather cannot be retreived
-      console.log('Look outside.');
-    }
-  
-  }); 
-  
 });
 
 
