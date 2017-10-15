@@ -476,6 +476,10 @@ p {
   margin: -260px auto;
   letter-spacing: 9px; }
 
+span{
+    font-size: 1em;
+}
+
 /* line 75, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 .city {
   font-family: 'Raleway', sans-serif;
