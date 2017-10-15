@@ -456,11 +456,11 @@ h1 {
   color: white;
   width: 50%;
   border-radius: 3px;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: 300;
   text-align: center;
   padding: 2em;
-  margin: 200px auto;
+  margin: 150px auto;
   letter-spacing: .9px; }
 
 /* line 61, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
@@ -469,11 +469,11 @@ p {
   width: 43.3%;
   border-radius: 3px;
   color: white;
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 300;
   text-align: center;
   padding: 1em;
-  margin: -310px auto;
+  margin: -260px auto;
   letter-spacing: 9px; }
 
 /* line 75, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
@@ -482,11 +482,11 @@ p {
   width: 50%;
   border-radius: 3px;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: 300;
   text-align: center;
   padding: 2em;
-  margin: 210px auto;
+  margin: 170px auto;
   letter-spacing: .9px; }
 
 /* line 90, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
