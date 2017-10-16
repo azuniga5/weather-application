@@ -426,9 +426,9 @@ template {
   0% {
     background-position: 0 0; }
   60% {
-    background-position: 100% 100%; }
+    background-position: 60% 60%; }
   80% {
-    background-position: 0 0; } }
+    background-position: 100% 100%; } }
 
 /* line 28, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 h1 {
