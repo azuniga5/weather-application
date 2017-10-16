@@ -420,7 +420,7 @@ template {
   max-width: 100%;
   background: url(../img/bg_img/galaxy-wallpaper-38.jpg);
   background-size: 250% 100%;
-  animation: animatedBackground 35s linear infinite; }
+  animation: animatedBackground 50s linear infinite; }
 
 @keyframes animatedBackground {
   0% {
@@ -459,7 +459,7 @@ h1 {
   font-weight: 300;
   text-align: center;
   padding: 2em;
-  margin: 70px auto;
+  margin: 80px auto;
   letter-spacing: .9px; }
 
 /* line 61, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
@@ -474,7 +474,7 @@ p {
   font-weight: 300;
   text-align: center;
   padding: 1em;
-  margin: -200px auto;
+  margin: -210px auto;
   letter-spacing: 9px; }
 
 
@@ -489,7 +489,7 @@ p {
   font-weight: 300;
   text-align: center;
   padding: 2em;
-  margin: 80px auto;
+  margin: 85px auto;
   letter-spacing: .9px; }
 
 
