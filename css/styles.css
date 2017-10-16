@@ -418,7 +418,7 @@ template {
   width: 100%;
   height: auto;
   max-width: 100%;
-  background: url(../img/bg_img/galaxy.jpg);
+  background: url(../img/bg_img/galaxy-wallpaper-38.jpg);
   background-size: 250% 100%;
   animation: animatedBackground 35s linear infinite; }
 
@@ -455,30 +455,29 @@ h1 {
   font-family: 'Raleway', sans-serif;
   color: white;
   width: 50%;
-  border-radius: 3px;
   font-size: 1.7em;
   font-weight: 300;
   text-align: center;
   padding: 2em;
-  margin: 150px auto;
+  margin: 100px auto;
   letter-spacing: .9px; }
 
 /* line 61, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
+
+
+
 p {
   font-family: 'Raleway', sans-serif;
   width: 43.3%;
-  border-radius: 3px;
   color: white;
   font-size: 5em;
   font-weight: 300;
   text-align: center;
   padding: 1em;
-  margin: -260px auto;
+  margin: -235px auto;
   letter-spacing: 9px; }
 
-span{
-    font-size: 1em;
-}
+
 
 /* line 75, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 .city {
@@ -490,14 +489,18 @@ span{
   font-weight: 300;
   text-align: center;
   padding: 2em;
-  margin: 170px auto;
+  margin: 125px auto;
   letter-spacing: .9px; }
+
 
 /* line 90, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 .toggle-drawer {
   color: white;
   font-size: 1.2em;
   padding: .5em; }
+
+
+
 
 /* line 99, /Users/azuniga5/Documents/GitHub/weather-application/css/styles.scss */
 aside {

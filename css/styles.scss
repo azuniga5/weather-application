@@ -34,6 +34,12 @@ h1 {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1.2px; }
 
+.toggle-drawer {
+  color: white;
+  font-size: 1.2em;
+  padding: .5em; }
+
+
 .links {
     font-family: 'Raleway', sans-serif;
     padding: 5em;
@@ -54,43 +60,40 @@ h1 {
  font-weight: 300;
  text-align: center;
  padding: 2em;
- margin: 150px auto;
- letter-spacing: .9px;
-    
-}
-p{
- 
- font-family: 'Raleway', sans-serif; 
- width: 43.3%;
-    border-radius: 3px;
- color: white;
- font-size: 5em;
- font-weight: 300;
- text-align: center;
- padding: 1em;
- margin: -260px auto;
- letter-spacing: 9px;}
-
-
-.city{
-
- font-family: 'Raleway', sans-serif;
-  width: 50%;
-    border-radius: 3px;
- color: white;
- font-size: 1.7em;
- font-weight: 300;
- text-align: center;
- padding: 2em;
- margin: 170px auto;
+ margin: 100px auto;
  letter-spacing: .9px;
     
 }
 
-.toggle-drawer {
+
+    
+    
+
+p {
+  font-family: 'Raleway', sans-serif;
+  width: 43.3%;
   color: white;
-  font-size: 1.2em;
-  padding: .5em; }
+  font-size: 5em;
+  font-weight: 300;
+  text-align: center;
+  padding: 1em;
+  margin: -235px auto;
+  letter-spacing: 9px; 
+
+}
+
+
+.city {
+  font-family: 'Raleway', sans-serif;
+  width: 50%;
+  border-radius: 3px;
+  color: white;
+  font-size: 1.7em;
+  font-weight: 300;
+  text-align: center;
+  padding: 2em;
+  margin: 125px auto;
+  letter-spacing: .9px; }
 
 
 
