@@ -420,7 +420,7 @@ template {
   max-width: 100%;
   background: url(../img/bg_img/galaxy-wallpaper-38.jpg);
   background-size: 250% 100%;
-  animation: animatedBackground 50s linear infinite; }
+  animation: animatedBackground 70s linear infinite; }
 
 @keyframes animatedBackground {
   0% {
