@@ -1,6 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Raleway");
-/*font-family: 'Kaushan Script', cursive;
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Merriweather+Sans|Raleway');
+
+/*font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
 font-family: 'Raleway', sans-serif;*/
+
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -509,8 +512,8 @@ aside {
   position: absolute;
   height: 100%;
   min-height: 100%;
-  left: -250px;
-  width: 230px;
+  left: -270px;
+  width: 270px;
   z-index: 999999;
   transition: left .25s; }
 
